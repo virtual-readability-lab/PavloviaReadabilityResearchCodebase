@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+
+        @font-face { 
+             font-family: ArialNormalized;
+             src: url('fonts/ArialFont.woff');
+             font-style: normal;
+         }
+         
+         @font-face { 
+             font-family: GaramondNormalized;
+             src: url('fonts/Garamond.woff');
+             font-style: normal;
+         }
+ 
+         @font-face { 
+             font-family: LexendNormalized;
+             src: url('fonts/LexendDeca.woff');
+             font-style: normal;
+         }            
+    
+         @font-face { 
+             font-family: MontserratNormalized;
+             src: url('fonts/Montserrat.woff');
+             font-style: normal;
+         }
+ 
+         @font-face { 
+             font-family: NotoSansNormalized;
+             src: url('fonts/NotoSans.woff');
+             font-style: normal;
+         }    
+ 
+         @font-face { 
+             font-family: RobotoNormalized;
+             src: url('fonts/Roboto.woff');
+             font-style: normal;
+         }
+
+         @font-face { 
+             font-family: TimesNormalized;
+             src: url('fonts/TimesNew.woff');
+             font-style: normal;
+         }         
+ 
+ 
+     </style>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>VRL [PsychoPy]</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="./lib/psychojs-2022.2.3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- external libraries -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/opentype.js@latest/dist/opentype.min.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/preloadjs@1.0.1/lib/preloadjs.min.js"></script>
+    <!-- experiment -->
+    <script src="./VRL.js" type="module"></script>
+    <!-- legacy browsers -->
+    <script src="./lib/psychojs-2022.2.3.iife.js" nomodule></script>
+    <script src="./VRL-legacy-browsers.js" nomodule></script>
+  </body>
+</html>
