@@ -2,7 +2,7 @@
 
 This project was developed by Kurtuluş Mert Küçük for scientific research purposes at Readability Lab, University of Central Florida. Software development was made on Psychopy, this allows online experimentation on Pavlovia platform. 
 
-This project was developed for readability research that investigates the effect of typeface (i.e. font-family) on reading speed and comprehension. Main idea is to count words read per minute for different fonts and estimate the fastest and slowest fonts for each participant. Originally, experimentation was conducted with passages with the length of 160 to 300 words. However, one can modify this using the excel sheet provided in the “/stimuli” folder.
+This project was developed for readability research that investigates the effect of typeface (i.e. font-family) on reading speed and comprehension. Main idea is to count words read per minute for different fonts and estimate the fastest and slowest fonts for each participant.
 
 If you are interested in using this project in your research follow the procedure below:
 
@@ -23,7 +23,7 @@ This is a three-set procedure, order of steps does not matter:
 3)	Open Psychopy experiment file. Click on “waitForNormalization” routine. Click on “normalizationCode” component. Get to “Begin Experiment” tab. Change font names and directories in the “fontNames” and “fontDirectories” variables according to your new fonts. 
 
 ### Changing Passages
-Open the excel sheet in “\stimuli” folder. Change the text under “pas1text,…,pasNtext” columns with the new passages. Be mindful that you’ll also need to change comprehension questions related to these passages. 
+ Originally, experimentation was conducted with passages with the length of 160 to 300 words. However, one can modify this using the excel sheet provided in the “/stimuli” folder. Open the excel sheet, change the text under “pas1text,…,pasNtext” columns with the new passages. Be mindful that you’ll also need to change comprehension questions related to these passages. 
 
 ### Counterbalancing
 Originally, there are 6 test fonts. The code counterbalances according to these 6 conditions. If you like to change the number of test fonts, you’ll also need to change counterbalancing code. This can be done by:
