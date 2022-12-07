@@ -11,6 +11,7 @@ If you are interested in using this project in your research follow the procedur
 • Make a copy of the index.html file elsewhere, you will need to update it whenever you make changes in your experiment. Specifically, index.html file is reset whenever you synchronize your local folder and Pavlovia project. When your .html file on Pavlovia git is reset, copy the contents of original .html and paste it to online version. 
 
 #Features
+
 •Changing fonts: This is a three-set procedure, order of steps does not matter:
 1)	Get .woff files for each font you want to use and place them in “fonts” folder. Change font directories and names in the .html file accordingly. 
 2)	Also change the font names and labels in the “blocks_1.xlsx” sheet. Don’t forget to specify which fonts are for practice trials (first font) and which are test fonts (counterbalanced presentation order).
