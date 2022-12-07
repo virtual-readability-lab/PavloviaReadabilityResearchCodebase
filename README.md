@@ -23,12 +23,12 @@ Open the excel sheet in “\stimuli” folder. Change the text under “pas1text
 
 ### Counterbalancing
 Originally, there are 6 test fonts. The code counterbalances according to these 6 conditions. If you like to change the number of test fonts, you’ll also need to change counterbalancing code. This can be done by:
-1)	Heading to Psychopy>”initialize” routine>variables. Increase or decrease the number of <if thisGroup.group> conditions according to your needs. 
-2)	If you increase the conditions, head to Psychopy>”initialize” routine>functionsOnly. Increase the amount of letters in:
+1)	Head to Psychopy>”initialize” routine>variables. Increase or decrease the number of <if thisGroup.group> conditions according to your needs. 
+2)	If you increase the conditions, head to Psychopy>”initialize” routine>functionsOnly. Increase the amount of letters in "makeid" function:
   
-var possible = "ABCDEF"(6 groups)
+    var possible = "ABCDEF"(6 groups)
   
-var possible = "ABCDEFGH" (8 groups) etc.
+    var possible = "ABCDEFGH" (8 groups) etc.
 
 
 
