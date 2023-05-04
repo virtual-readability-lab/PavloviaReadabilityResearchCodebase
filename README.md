@@ -1,6 +1,6 @@
 # Pavlovia Readability Research Codebase
 
-This project was developed by Kurtuluş Mert Küçük for scientific research purposes at Readability Lab, University of Central Florida. Software development was made on Psychopy, this allows online experimentation on Pavlovia platform. 
+This project was developed for scientific research purposes by Readability Lab, University of Central Florida. Software development was made on Psychopy, this allows online experimentation on Pavlovia platform. 
 
 This project was developed for readability research that investigates the effect of typeface (i.e. font-family) on reading speed and comprehension. Main idea is to count words read per minute for different fonts and estimate the fastest and slowest fonts for each participant.
 
