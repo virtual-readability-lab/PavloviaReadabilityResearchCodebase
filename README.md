@@ -17,7 +17,7 @@ If you are interested in using this project in your research follow the procedur
 ## Features
 
 ### Changing fonts 
-This is a three-set procedure, order of steps does not matter:
+This is a three-step procedure, order of steps does not matter:
 1)	Get .woff files for each font you want to use and place them in “fonts” folder. Change font directories and names in the .html file accordingly. 
 2)	Also change the font names and labels in the “blocks_1.xlsx” sheet. Don’t forget to specify which fonts are for practice trials (first font) and which are test fonts (counterbalanced presentation order).
 3)	Open Psychopy experiment file. Click on “waitForNormalization” routine. Click on “normalizationCode” component. Get to “Begin Experiment” tab. Change font names and directories in the “fontNames” and “fontDirectories” variables according to your new fonts. 
